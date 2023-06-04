@@ -11,7 +11,7 @@ export const CardContent = ({title}) => {
 
     useEffect(() => {
         async function fetchData() {
-            await axios.get(`${url}/userShoppings/1`)
+            await axios.get(`${url}/userShoppings`)
                 .then(response => {
                     setData(response.data)
                 })

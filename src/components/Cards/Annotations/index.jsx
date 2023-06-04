@@ -1,6 +1,6 @@
 import "./style.css"
 
-export const Annotation = ({description}) => {
+export const Anotation = ({description}) => {
     return (
         <div className="annotation-container">
             {`<--`} {description} {`-->`}
