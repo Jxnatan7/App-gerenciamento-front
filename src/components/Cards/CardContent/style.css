@@ -1,0 +1,17 @@
+.content-container {
+    color: #FFF;
+}
+
+.content-header {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.content-header div {
+    color: #FF79C6;
+}
+
+.content-footer {
+    margin-left: 12px;
+}
