@@ -1,0 +1,22 @@
+.back-container {
+     margin-top: 15px;
+     margin-left: 15px;
+}
+
+.btn-back {
+    width: 45px;
+    height: 45px;
+    background-color: #50FA7B;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    background-color: #31d85b;
+}
+
+.btn-back:active {
+    opacity: 50%;
+}

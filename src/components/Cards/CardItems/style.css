@@ -1,0 +1,17 @@
+.item-body {
+    display: flex;
+    margin-left: 36px;
+    color: #FF79C6;
+}
+
+.item-title {
+    color: #50FA7B;
+}
+
+.item-value {
+    color: #F1FA8C;
+}
+
+.item-price {
+    color: #8BE9FD;
+}

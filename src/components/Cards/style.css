@@ -1,0 +1,27 @@
+.card-container {
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Remover a barra de rolagem lateral */
+.card-body::-webkit-scrollbar {
+    display: none;
+}
+
+.card-container p {
+    color: #F8F8F2;
+}
+
+.card-body {
+    width: 326px;
+    height: 234px;
+    max-width: 326px;
+    background-color: #282A36;
+    border-radius: 10px;
+    margin-top: 7px;
+    overflow: auto;
+}
